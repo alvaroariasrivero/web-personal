@@ -15,6 +15,7 @@ body {
     text-align: center;
     color: white;
     width: 100%;
+    margin: 0px;
 }
 
 .menu {
@@ -28,6 +29,10 @@ a:hover {
     color: white;
 }
 
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
 li {
     display: inline;
     list-style-type: none;
@@ -36,10 +41,6 @@ li {
 .lista{
     text-align: center;
     word-spacing: 30px;
-}
-
-a:link, a:visited, a:active {
-    text-decoration: none;
 }
 
 img.biografia {
@@ -57,6 +58,7 @@ article {
     border-radius: 5%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     text-align: justify;
     padding: 20px;
     font-family: 'Sancreek', cursive;
@@ -78,17 +80,39 @@ p.intro {
     font-size: 36px;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 0px;
 }
 
-section {
+section.info {
     width: 500px;
     border: 2px solid chartreuse;
     border-radius: 5%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     text-align: justify;
     padding: 20px;
     font-family: 'Sancreek', cursive;
     color: white;
     background-color: black;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#rockandroll {
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
 }
