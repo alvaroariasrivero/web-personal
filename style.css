@@ -66,7 +66,7 @@ img.biografia {
 }
 
 article {
-    width: 500px;
+    max-width: 500px;
     border: 2px solid chartreuse;
     border-radius: 5%;
     margin-left: auto;
@@ -86,6 +86,10 @@ section.foto {
     margin-top: 20px;
 }
 
+p {
+    margin-bottom: 20px;
+}
+
 p.intro {
     width: 700px;
     font-family: 'Sancreek', cursive;
@@ -94,6 +98,7 @@ p.intro {
     font-size: 36px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 5px;
     padding-bottom: 0px;
 }
 
