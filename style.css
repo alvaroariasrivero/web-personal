@@ -4,14 +4,12 @@
 
 body {
     background-image: url(/assets/fondo_líneas.png);
-    margin: 0px;
 }
 
 header {
     font-family: 'Creepster', cursive;
     font-size: 80px;
     text-align: center;
-    color: white;
     background-color: black;
     width: 100%;
     margin: 0px;
@@ -19,7 +17,6 @@ header {
 
 h1 {
     color: white;
-
 }
 
 li {
@@ -98,8 +95,8 @@ p.intro {
     font-size: 36px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 5px;
     margin-bottom: 5px;
-    padding-bottom: 0px;
 }
 
 section.info {
@@ -150,6 +147,14 @@ h3 {
     text-align: center;
 }
 
+iframe {
+    height: 270px;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 5%;
+}
 
 /* carousel */
 .carousel {
@@ -257,10 +262,3 @@ h3 {
     color: chartreuse;
 }
 
-iframe {
-    height: 270px;
-    width: 480px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5%;
-}
