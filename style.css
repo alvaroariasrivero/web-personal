@@ -114,6 +114,15 @@ section.info {
     background-color: black;
 }
 
+div.flexcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+div.contenido {
+    margin-bottom: 10px;
+}
+
 footer {
     color: white;
     background-color: black;
